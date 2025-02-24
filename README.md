@@ -12,6 +12,14 @@ This is a **Node.js** API for managing a **referral system**. It allows users to
 ✅ Proper error handling for better debugging  
 
 ---
+```plaintext
+DATABASE_URL=<your-database-url>
+
+EMAIL_USER=<your-email-username>
+EMAIL_PASS=<your-email-password>
+
+PORT=<your-desired-port>
+
 
 ## **Installation & Setup**
 1. **Clone this repository:**:
