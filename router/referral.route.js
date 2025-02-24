@@ -4,5 +4,5 @@ const { ReferralSubmit, getAllReferral } = require('../controller/refferal.contr
 const router = express.Router();
 
 router.post('/referral', ReferralSubmit);
-router.post('/get-all-list', getAllReferral)
+router.get('/get-all-list', getAllReferral)
 module.exports = router; 
