@@ -32,11 +32,7 @@ const ReferralSubmit = async (req, res) => {
         // Send referral email
         const referral = await sendReferralEmail(referrer_name, referrer_email, referred_name, referred_email);
 
-        if (!referral) {
-            return res.status(400).json({
-                message: "Referral email sending failed",
-            });
-        }
+        
 
         return res.status(200).json({
             message: "Referral data saved successfully",
